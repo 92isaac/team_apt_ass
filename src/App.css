@@ -4,3 +4,6 @@
   box-sizing: border-box;
 }
 
+.shadowbotom {
+  box-shadow: 0 2px 1px -1px gray;
+}

@@ -3,6 +3,7 @@ import { FaShoppingCart, FaMapMarkerAlt, FaBars, FaBell } from "react-icons/fa";
 import { HiOutlineUserCircle } from "react-icons/hi";
 import { AiOutlineSearch } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const NavbarLarge = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -93,7 +94,7 @@ const NavbarLarge = () => {
         <div className="relative">
             {/* All category dropdown button */}
         <button className=" text-sm left-0 top-0 bottom-0 bg-[#363741] py-2.5 rounded-r">
-          All categories <FaBars className="inline-block ml-1" />
+          All categories <RiArrowDropDownLine className="inline text-2xl" />
         </button>
           <input
             type="text"

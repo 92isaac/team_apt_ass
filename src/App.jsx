@@ -4,6 +4,7 @@ import './App.css'
 import Home from './route/Home'
 import { InitialSpinner } from "./components/commonfiles/InitialSpinner";
 import SharedLayout from "./components/commonfiles/SharedLayout";
+import { Marketplace } from "./components/Marketplace";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,6 +22,7 @@ function App() {
     <Routes>
       <Route path="/" element={<SharedLayout />}>
       <Route index element={<Home/>} />
+      <Route path="/:id" element={<Marketplace/>} />
       </Route>
     </Routes>
     </div>}
