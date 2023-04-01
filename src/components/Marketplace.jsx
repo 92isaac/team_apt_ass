@@ -3,6 +3,7 @@ import { images } from "./commonfiles/data";
 import ProductDescription from "./ProductDescription";
 import ProductImageGallery from "./ProductImageGallery";
 import { ProductOrder } from "./ProductOrder";
+import ReviewsRating from "./ReviewsRating";
 
 export const Marketplace = () => {
   return (
@@ -14,6 +15,7 @@ export const Marketplace = () => {
           <ProductDescription />
           <ProductOrder />
         </div>
+        <ReviewsRating />
       </div>
     </div>
   );
