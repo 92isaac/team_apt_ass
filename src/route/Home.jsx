@@ -1,11 +1,11 @@
 import React from 'react'
-import HeroAnimation from '../components/framer/HeroAnimation'
+import SliderComponent from '../components/framer/SliderComponent'
 import { Marketplace } from '../components/Marketplace'
 
 const Home = () => {
   return (
     <div>
-      <HeroAnimation />
+      <SliderComponent />
       <Marketplace />
     </div>
   )

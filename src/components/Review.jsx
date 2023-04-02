@@ -29,7 +29,7 @@ export const Review = () => {
       </div>
 
       <div className="mt-4 px-4">
-        <div className="flex justify-between">
+        <div className="md:flex md:justify-between">
           <div>
             <h3 className="">Top Reviews</h3>
             <p>Showing 3 of 2.3k+ reviews</p>
@@ -45,7 +45,7 @@ export const Review = () => {
         </div>
 
           {reviews.map((review)=>(
-                    <div>
+                    <div key={review.id}>
                     <div className="mt-8">
                       <div className="flex justify-between">
                         <div className="flex">
@@ -64,14 +64,14 @@ export const Review = () => {
                       </div>
                     </div>
                     <div className="chat">
-                      <div className="flex justify-between mt-5">
-                        <div className="border text-xs bg-[#E4F0EE] text-[#5BAE9A] px-1 rounded-md">
+                      <div className="md:flex md:justify-between mt-5">
+                        <div className=" mb-2 border text-xs bg-[#E4F0EE] text-[#5BAE9A] px-1 rounded-md">
                           <p>{review.testimonies.product}</p>
                         </div>
-                        <div className="border text-xs bg-[#E4F0EE] text-[#5BAE9A] px-1 rounded-md">
+                        <div className=" mb-2 border text-xs bg-[#E4F0EE] text-[#5BAE9A] px-1 rounded-md">
                         <p>{review.testimonies.delivery}</p>
                         </div>
-                        <div className="border text-xs bg-[#E4F0EE] text-[#5BAE9A] px-1 rounded-md">
+                        <div className=" mb-2 border text-xs bg-[#E4F0EE] text-[#5BAE9A] px-1 rounded-md">
                         <p>{review.testimonies.response}</p>
                         </div>
                       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Rating } from './Rating'
+import { Recommendation } from './Recommendation'
 import { Review } from './Review'
 import { ReviewSpace } from './ReviewSpace'
 
@@ -14,6 +15,7 @@ const ReviewsRating = () => {
           <Review />
           <ReviewSpace />
         </div>
+        <Recommendation />
       </div>
     </div>
   )
