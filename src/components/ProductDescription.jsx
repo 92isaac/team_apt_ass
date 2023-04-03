@@ -7,7 +7,7 @@ const ProductDescription = () => {
   return (
     <div className="px-4 ">
       <div>
-        <h4 className="text-[#24836C] font-semibold text-sm pt-4">
+        <h4 className="text-[#24836C] font-semibold text-sm ">
           Visit Shrifting_Store
         </h4>
         <h2 className="font-bold text-2xl mt-4">

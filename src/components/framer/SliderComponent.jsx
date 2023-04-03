@@ -14,6 +14,7 @@ import Image3 from "../../assets/products/3.png";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
+import HeroOverlay from "../HeroOverlay";
 
 export default function SliderComponent() {
   const images = [
@@ -41,7 +42,8 @@ export default function SliderComponent() {
   ];
 
   return (
-    <>
+    <div className="-z-10 md:relative">
+      <HeroOverlay />
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -81,6 +83,6 @@ export default function SliderComponent() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 }

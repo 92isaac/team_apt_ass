@@ -3,7 +3,7 @@ import img2 from '../../assets/products/2.png'
 import img3 from '../../assets/products/3.png'
 import img4 from '../../assets/products/5.png'
 
-export const images = ["https://source.unsplash.com/user/c_v_r/1600x900", "https://picsum.photos/600/600","https://source.unsplash.com/user/c_v_r/1600x900","https://picsum.photos/600/600",]
+export const images = [img1, img2, img3, img4]
 
 
 export const reviews =[

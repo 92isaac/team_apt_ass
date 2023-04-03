@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { Outlet } from "react-router-dom";
 import NavbarLarge from '../navbar/NavbarLarge';
 import NavbarSmall from '../navbar/NavbarSmall';
+import Footer from './Footer';
 
 
 const SharedLayout = () => {
@@ -15,6 +16,7 @@ const SharedLayout = () => {
     isSidebarOpen={isSidebarOpen}
     />
     <Outlet />
+    <Footer />
     </>
   )
 }

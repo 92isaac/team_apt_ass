@@ -5,6 +5,7 @@ import Home from './route/Home'
 import { InitialSpinner } from "./components/commonfiles/InitialSpinner";
 import SharedLayout from "./components/commonfiles/SharedLayout";
 import { Marketplace } from "./components/Marketplace";
+// import Footer from "./components/commonfiles/Footer";
 
 function App() {
   const [loading, setLoading] = useState(true);

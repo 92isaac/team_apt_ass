@@ -74,7 +74,7 @@ const NavbarLarge = () => {
           <div className="text-2xl mr-2">
             <FaShoppingCart />
           </div>
-          <div className="font-bold text-xl">My Shop</div>
+          <div className="font-bold text-xl uppercase">Tokosmiles</div>
         </div>
 
         {/* Location icon with "deliver to" text */}
