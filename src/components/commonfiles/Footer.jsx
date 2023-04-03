@@ -28,7 +28,7 @@ const Footer = () => {
             <li className='text-xs leading-5 md:leading-8 md:text-sm '>Term of Order</li>
         </ul>
         <div className='mt-4 md:mt-0'>
-            <Link to="/" className='mb-5'><FaShoppingBag className='inline text-sm md:text-2xl'/> TOKOSMILE</Link>
+            <Link to="/" className='mb-5 text-white'><FaShoppingBag className='inline text-sm md:text-2xl'/> TOKOSMILE</Link>
             <p className='mt-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, reprehenderit!</p>
             <div className='flex gap-3'>
                 <FaFacebook />

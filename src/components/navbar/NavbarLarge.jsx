@@ -4,6 +4,7 @@ import { HiOutlineUserCircle } from "react-icons/hi";
 import { AiOutlineSearch } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const NavbarLarge = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,8 +30,8 @@ const NavbarLarge = () => {
                   d="M13 10V3L4 14h7v7l9-11h-7z"
                 />
               </svg>
-              <span className="text-gray-300  ml-2">
-                Download our app on App Store
+              <span className="text-gray-300  ml-2 text-sm">
+                Download Tokosmile mobile app now
               </span>
             </div>
           </div>
@@ -70,12 +71,14 @@ const NavbarLarge = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="hidden  md:container md:mx-auto md:py-4 md:flex md:justify-between md:items-center">
         {/* Logo with shop icon */}
+          <Link to='/'>
         <div className="flex items-center">
           <div className="text-2xl mr-2">
-            <FaShoppingCart />
+            <FaShoppingCart className="inline"/>
           </div>
-          <div className="font-bold text-xl uppercase">Tokosmiles</div>
+          <div className="font-bold text-xl uppercase text-white">Tokosmiles</div>
         </div>
+          </Link>
 
         {/* Location icon with "deliver to" text */}
         <div className="flex items-center">
